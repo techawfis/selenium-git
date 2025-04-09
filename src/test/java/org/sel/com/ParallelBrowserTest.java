@@ -9,5 +9,6 @@ public class ParallelBrowserTest {
         // Start the threads
         firefoxThread.start();
         edgeThread.start();
+        System.out.println("this is new");
     }
 }
