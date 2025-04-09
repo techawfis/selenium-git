@@ -5,9 +5,11 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+
 public class BrowserTest implements Runnable {
 
     private final String browserType;
+    WebDriver driver;
 
     // Constructor to specify the browser type
     public BrowserTest(String browserType) {
@@ -16,7 +18,7 @@ public class BrowserTest implements Runnable {
 
     @Override
     public void run() {
-        WebDriver driver = null;
+        driver = null;
 
         // Launch different browsers based on browserType
         switch (browserType.toLowerCase()) {
@@ -42,7 +44,11 @@ public class BrowserTest implements Runnable {
             driver.get("https://demo.aspnetawesome.com/");
             System.out.println(browserType + " Browser - Title: " + driver.getTitle());
             BrowserActions.takeScreenshot(driver);
-        } finally {
+        } catch (Exception e){
+            e.printStackTrace();
+        }
+
+        finally {
             if (driver != null) {
                 driver.quit();
             }
