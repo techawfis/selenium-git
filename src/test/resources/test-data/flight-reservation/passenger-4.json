@@ -1,0 +1,11 @@
+{
+  "firstName": "Michael",
+  "lastName": "Brown",
+  "email": "michael.brown@example.com",
+  "password": "MichaelPass101",
+  "street": "101 Cedar Lane",
+  "city": "Brookfield",
+  "zip": "11223",
+  "passengerCount": "4",
+  "expectedPrice": "$2338 USD"
+}

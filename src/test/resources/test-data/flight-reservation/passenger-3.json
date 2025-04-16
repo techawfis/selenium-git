@@ -1,0 +1,11 @@
+{
+  "firstName": "Emily",
+  "lastName": "Johnson",
+  "email": "emily.johnson@example.com",
+  "password": "EmilySecure789",
+  "street": "789 Pine Drive",
+  "city": "Riverdale",
+  "zip": "67890",
+  "passengerCount": "3",
+  "expectedPrice": "$1753 USD"
+}
