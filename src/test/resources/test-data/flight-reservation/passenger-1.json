@@ -1,0 +1,11 @@
+{
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "john.doe@example.com",
+  "password": "SecurePassword123",
+  "street": "123 Elm Street",
+  "city": "Springfield",
+  "zip": "98765",
+  "passengerCount": "1",
+  "expectedPrice":"$584 USD"
+}

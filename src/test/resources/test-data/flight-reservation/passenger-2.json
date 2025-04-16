@@ -1,0 +1,11 @@
+{
+  "firstName": "Jane",
+  "lastName": "Smith",
+  "email": "jane.smith@example.com",
+  "password": "MySafePassword456",
+  "street": "456 Oak Avenue",
+  "city": "Maplewood",
+  "zip": "54321",
+  "passengerCount": "2",
+  "expectedPrice": "$1169 USD"
+}
