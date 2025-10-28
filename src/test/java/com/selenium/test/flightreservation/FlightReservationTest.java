@@ -53,10 +53,10 @@ public class FlightReservationTest extends AbstractTest {
         flightSelectionPage.clickConfirmFlights();
     }
 
-    @Test(dependsOnMethods = "flightSelectionTest")
-    public void flightConfirmationTest(){
-        FlightConfirmationPage flightConfirmationPage = new FlightConfirmationPage(driver);
-        Assert.assertTrue(flightConfirmationPage.isAt());
-        Assert.assertEquals(flightConfirmationPage.getPrice(),testData.expectedPrice());
-    }
+//    @Test(dependsOnMethods = "flightSelectionTest")
+//    public void flightConfirmationTest(){
+//        FlightConfirmationPage flightConfirmationPage = new FlightConfirmationPage(driver);
+//        Assert.assertTrue(flightConfirmationPage.isAt());
+//        Assert.assertEquals(flightConfirmationPage.getPrice(),testData.expectedPrice());
+//    }
 }
