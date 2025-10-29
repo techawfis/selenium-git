@@ -19,9 +19,6 @@ public class ResourceLoader {
     public static InputStream getResource(String path) throws Exception{
         log.info("reading resource from location: {}",path);
         InputStream stream = ResourceLoader.class.getClassLoader().getResourceAsStream(path);
-//        if (stream == null) {
-//            log.error("Resource not found at: {}", path);
-//        }
         if(Objects.nonNull(stream)){
             return stream;
         }

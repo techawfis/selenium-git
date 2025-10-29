@@ -71,6 +71,4 @@ public class RegistrationPage extends AbstractPage {
     public void clickRegister(){
         register.click();
     }
-
-
 }
